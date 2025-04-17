@@ -1,0 +1,26 @@
+{
+  "name": "@quiteer/time",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quiteer/quiteer-utils"
+  },
+  "keywords": [
+    "time",
+    "datetime",
+    "timezone",
+    "typescript"
+  ],
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "unbuild",
+    "dev": "unbuild --stub"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "unbuild": "^2.0.0"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "@quiteer/fetch",
+  "version": "1.0.0",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "unbuild",
+    "dev": "unbuild --stub"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "unbuild": "^2.0.0"
+  }
+}

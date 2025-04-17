@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "target": "ES2020",
+    "baseUrl": ".",
+    "rootDir": "src",
+    "module": "NodeNext",
+    "paths": {},
+    "strict": true,
+    "outDir": "dist"
+  },
+  "include": ["src"],
+  "exclude": ["**/__tests__"]
+}

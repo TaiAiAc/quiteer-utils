@@ -1,0 +1,46 @@
+{
+  "name": "@quiteer/utils-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A collection of utility packages",
+  "author": "",
+  "license": "MIT",
+  "keywords": [
+    "utils",
+    "monorepo",
+    "pnpm"
+  ],
+  "engines": {
+    "node": ">=14",
+    "pnpm": ">=7"
+  },
+  "scripts": {
+    "build": "pnpm -r build",
+    "test": "jest",
+    "test:color": "jest packages/color",
+    "test:event": "jest packages/event",
+    "test:fetch": "jest packages/fetch",
+    "test:function": "jest packages/function",
+    "test:is": "jest packages/is",
+    "test:time": "jest packages/time",
+    "test:utils": "jest packages/utils",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "clean": "pnpm -r clean",
+    "dev": "pnpm -r dev"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^4.11.0",
+    "@jest/globals": "^29.7.0",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.14.0",
+    "@typescript-eslint/eslint-plugin": "^8.29.1",
+    "@typescript-eslint/parser": "^8.29.1",
+    "eslint": "^9.24.0",
+    "eslint-plugin-format": "^1.0.1",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.3.2",
+    "typescript": "^5.8.3",
+    "unbuild": "^3.5.0"
+  }
+}

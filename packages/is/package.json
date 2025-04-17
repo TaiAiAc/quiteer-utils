@@ -1,0 +1,28 @@
+{
+  "name": "@quiteer/is",
+  "version": "0.1.0",
+  "description": "Type checking functions for quiteer",
+  "license": "MIT",
+  "keywords": [
+    "type-check",
+    "is"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "unbuild",
+    "dev": "unbuild --stub",
+    "clean": "rm -rf dist"
+  }
+}

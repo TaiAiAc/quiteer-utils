@@ -1,0 +1,23 @@
+{
+  "name": "@quiteer/function",
+  "version": "0.1.0",
+  "description": "Function utilities for quiteer",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./index.cjs",
+  "module": "./index.mjs",
+  "types": "./index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "unbuild",
+    "dev": "unbuild --stub",
+    "clean": "rm -rf dist"
+  }
+}

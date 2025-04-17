@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "typeRoots": ["./node_modules/@types", "./packages/**/src/types"],
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  },
+  "include": ["**/*.ts", "**/*.d.ts"]
+}

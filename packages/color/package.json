@@ -1,0 +1,30 @@
+{
+  "name": "@quiteer/color",
+  "version": "1.0.0",
+  "description": "Color manipulation utilities",
+  "author": "quiteer",
+  "license": "MIT",
+  "keywords": [
+    "color",
+    "rgb",
+    "hsl",
+    "hex",
+    "color-convert"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "unbuild",
+    "dev": "unbuild --stub",
+    "clean": "rm -rf dist"
+  }
+}
